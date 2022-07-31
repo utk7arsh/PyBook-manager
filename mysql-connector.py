@@ -23,3 +23,6 @@ try:
   VARCHAR(25) DATEOFISSUE DATE,\
   DATEDUE DATE’))
   print(‘created table, add items now’)
+
+except:
+  print(‘table exists’)
