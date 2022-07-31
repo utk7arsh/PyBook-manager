@@ -26,3 +26,23 @@ try:
 
 except:
   print(‘table exists’)
+
+
+print("Book Management System 1.0")
+while True:
+ CH=input("A:Add Item V:View S:Search I:Issue R:Return Q:Quit")
+ if CH=='A':
+  AddBook()
+ elif CH=="S":
+  SearchBook()
+ elif CH=="V":
+  View()
+ elif CH=="I":
+  IssueBook()
+ elif CH=='R':
+  returned()
+ else:
+  break
+studentnumbers()
+db.close()
+
